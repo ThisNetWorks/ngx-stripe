@@ -29,6 +29,7 @@ export interface ElementOptions {
   iconStyle?: 'solid' | 'default';
   placeholder?: string;
   value?: string | object;
+  classes?: string | object;
 }
 
 export interface ElementStyleAttributes {
